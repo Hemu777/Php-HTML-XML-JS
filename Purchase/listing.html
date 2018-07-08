@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+ <script type="text/javascript" src="listing.js"></script>  
+
+</head>
+<body>
+
+
+<p><a href="listing.html" target="content"> Listing </a> &nbsp <a href="processing.html"> Processing </a> &nbsp <a href="mlogout.html"> Logout </a></p>
+
+<H3> Listing Goods </H3>
+<form>
+
+	 
+	 
+		<table border="1">
+		<tr><td><p align="right">Item Name:</p></td><td><input type="text" id="item" name="item" style="width:400px;"> </br></td></tr>
+		<tr><td><p align="right">Item Description:</p></td><td> <input type="text" id="description" name="description" style="width:400px;"> </br></td></tr>
+		<tr><td><p align="right">Item Quantity:</p></td><td> <input type="number" id="qty" name="qty" style="width:100px;" value="0">  </br></td></tr>
+		<tr><td><p align="right">Item Price:</p></td><td> <input type="price" id="price" name="price" style="width:100px;" value="0.0"> </br></td></tr>
+		<tr><td></td>
+		<td>
+		<input type="button" value="List Item" onclick="saveDetails()"/> 
+        <input type="reset" value = "Reset" name="Reset"></td></tr>
+		
+        </table>
+		<br/>
+		<br/>
+		
+</form>
+<div id="information">
+
+</div>
+</body>
+</html>
